@@ -1,0 +1,17 @@
+<html>
+
+<head>
+  <title>Astroid - Long Running Job</title>
+  <script src="http://www.google.com/jsapi"></script>
+  <script>google.load("jquery", "1.3.2");</script>
+  <script src="/main.js"></script>
+</head>
+
+<body>
+	<center>
+		<h4 style="margin-top: 100px">Job #<%= @job_id %> Progress:</h4>
+		<p id="job-progress" value="<%= @job_id %>">waiting...</p>
+	</center>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+SequelOutput: ensure_progress_table_exists
+Errno::ECONNREFUSED: Connection refused - connect(2)
+Errno::ECONNREFUSED: Connection refused - connect(2)
+/opt/local/lib/ruby/gems/1.8/gems/beanstalk-client-1.0.2/lib/beanstalk-client/connection.rb:373:in `pick_connection': Beanstalk::NotConnected (Beanstalk::NotConnected)
+	from /opt/local/lib/ruby/gems/1.8/gems/beanstalk-client-1.0.2/lib/beanstalk-client/connection.rb:364:in `send_to_rand_conn'
+	from /opt/local/lib/ruby/gems/1.8/gems/beanstalk-client-1.0.2/lib/beanstalk-client/connection.rb:348:in `retry_wrap'
+	from /opt/local/lib/ruby/gems/1.8/gems/beanstalk-client-1.0.2/lib/beanstalk-client/connection.rb:364:in `send_to_rand_conn'
+	from /opt/local/lib/ruby/gems/1.8/gems/beanstalk-client-1.0.2/lib/beanstalk-client/connection.rb:261:in `reserve'
+	from process_jobs.rb:17
+	from process_jobs.rb:16:in `loop'
+	from process_jobs.rb:16
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:215:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:215:in `start_proc'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/daemonize.rb:192:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/daemonize.rb:192:in `call_as_daemon'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:219:in `start_proc'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/application.rb:255:in `start'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/controller.rb:69:in `run'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:188:in `run_proc'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `call'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons/cmdline.rb:105:in `catch_exceptions'
+	from /opt/local/lib/ruby/gems/1.8/gems/daemons-1.0.10/lib/daemons.rb:187:in `run_proc'
+	from process_jobs.rb:12
+SequelOutput: ensure_progress_table_exists
+processing 6
+SequelOutput: initialize
+SequelOutput: create_progress_bar
+SequelOutput: post('...', 0, false)
+SequelOutput: post('...', 0, false)
+SequelOutput: post('...', 6, false)
+SequelOutput: post('...', 13, false)
+SequelOutput: post('...', 20, false)
+SequelOutput: post('...', 26, false)
+SequelOutput: post('...', 33, false)
+SequelOutput: post('...', 40, false)
+SequelOutput: post('...', 46, false)
+SequelOutput: post('...', 53, false)
+SequelOutput: post('...', 60, false)
+SequelOutput: post('...', 66, false)
+SequelOutput: post('...', 73, false)
+SequelOutput: post('...', 80, false)
+SequelOutput: post('...', 86, false)
+SequelOutput: post('...', 93, false)
+SequelOutput: post('...', 100, false)
+SequelOutput: post('...', 100, true)
+finished 6
+processing 34
+SequelOutput: initialize
+SequelOutput: create_progress_bar
+SequelOutput: post('...', 0, false)
+SequelOutput: post('...', 0, false)
+SequelOutput: post('...', 6, false)
+SequelOutput: post('...', 13, false)
+SequelOutput: post('...', 20, false)
+SequelOutput: post('...', 26, false)
+SequelOutput: post('...', 33, false)
+SequelOutput: post('...', 40, false)
+SequelOutput: post('...', 46, false)
+SequelOutput: post('...', 53, false)
+SequelOutput: post('...', 60, false)
+SequelOutput: post('...', 66, false)
+SequelOutput: post('...', 73, false)
+SequelOutput: post('...', 80, false)
+SequelOutput: post('...', 86, false)
+SequelOutput: post('...', 93, false)
+SequelOutput: post('...', 100, false)
+SequelOutput: post('...', 100, true)
+finished 34
+SequelOutput: ensure_progress_table_exists
+processing 12
+SequelOutput: initialize
+SequelOutput: create_progress_bar
+SequelOutput: post('...', 0, false)
+SequelOutput: post('...', 0, false)
+SequelOutput: post('...', 6, false)
+SequelOutput: post('...', 13, false)
+SequelOutput: post('...', 20, false)
+SequelOutput: post('...', 26, false)
+SequelOutput: post('...', 33, false)
+SequelOutput: post('...', 40, false)
+SequelOutput: post('...', 46, false)
+SequelOutput: post('...', 53, false)
+SequelOutput: post('...', 60, false)
+SequelOutput: post('...', 66, false)
+SequelOutput: post('...', 73, false)
+SequelOutput: post('...', 80, false)
+SequelOutput: post('...', 86, false)
+SequelOutput: post('...', 93, false)
+SequelOutput: post('...', 100, false)
+SequelOutput: post('...', 100, true)
+finished 12
